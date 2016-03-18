@@ -25,8 +25,18 @@ def max_2_sum(a)
     end
 end
 def sum_to_n?(a, n)
-    
+    k = a.length-1
+    for i in 0..k
+        if i != k
+            j=i+1
+            for e in j..k
+                return true if a[i] + a[e] == n
+            end
+        end
+    end
+    return false
 end
 a = [2,4,5,6]
 puts sum(a)
 puts max_2_sum(a)
+puts sum_to_n?(a,12)
