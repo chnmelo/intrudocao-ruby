@@ -10,6 +10,7 @@ def sum (a)
         return sumi
     end
 end
+
 def max_2_sum(a)
     if a != nil
         if a.length >1
@@ -24,6 +25,7 @@ def max_2_sum(a)
         return "zero"
     end
 end
+
 def sum_to_n?(a, n)
     k = a.length-1
     for i in 0..k
@@ -36,6 +38,7 @@ def sum_to_n?(a, n)
     end
     return false
 end
+
 a = [2,4,5,6]
 puts sum(a)
 puts max_2_sum(a)
