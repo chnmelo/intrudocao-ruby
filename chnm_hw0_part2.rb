@@ -20,5 +20,5 @@ def binary_multiple_of_4?(s)
 end
 A= "ALELUIIIA"
 puts starts_with_consonant?(A)
-puts binary_multiple_of_4?("")
+puts binary_multiple_of_4?("11111101")
 
